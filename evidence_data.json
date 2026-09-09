@@ -1,0 +1,176 @@
+{
+  "jawa-klasik": {
+    "bride": {
+      "shortName": "Sekar",
+      "name": "Sekar Arum Kinasih, S.Psi.",
+      "parents": "Putri kedua dari\nBapak R. Harjono Puspowardoyo & Ibu R.A. Sri Hartini",
+      "instagram": "@sekararumk"
+    },
+    "groom": {
+      "shortName": "Danu",
+      "name": "Danu Prakosa Wibowo, S.E.",
+      "parents": "Putra pertama dari\nBapak H. Slamet Wibowo & Ibu Hj. Sumarni",
+      "instagram": "@danuprakosa"
+    },
+    "venue": "Pendopo Ndalem Suryaningratan",
+    "city": "Yogyakarta",
+    "eventAt": "2027-05-15T09:00:00+07:00",
+    "gift": {
+      "heading": "Tanda Kasih",
+      "intro": "Doa dan kehadiran Bapak/Ibu sudah lebih dari cukup bagi kami. Bila berkenan memberi tanda kasih, kami sediakan pilihan berikut.",
+      "toggleLabel": "Lihat Rekening",
+      "accounts": [
+        {
+          "bank": "BCA",
+          "holder": "Sekar Arum Kinasih",
+          "number": "1234567890"
+        },
+        {
+          "bank": "Mandiri",
+          "holder": "Danu Prakosa Wibowo",
+          "number": "0987654321"
+        }
+      ],
+      "addressLabel": "Kirim Hadiah",
+      "address": "Jl. Parangtritis No. 45, Mantrijeron, Yogyakarta 55143",
+      "note": "Mohon konfirmasi setelah mengirim agar kami dapat mengucapkan terima kasih."
+    },
+    "family": {
+      "heading": "Keluarga Kami",
+      "members": [
+        {
+          "name": "Bapak R. Harjono Puspowardoyo & Ibu R.A. Sri Hartini",
+          "role": "Orang Tua Mempelai Wanita"
+        },
+        {
+          "name": "Bapak H. Slamet Wibowo & Ibu Hj. Sumarni",
+          "role": "Orang Tua Mempelai Pria"
+        },
+        {
+          "name": "Sekar Ayu Paramita & Raden Bagus Widagdo",
+          "role": "Kakak Mempelai Wanita"
+        }
+      ]
+    }
+  },
+  "batak-karo": {
+    "bride": {
+      "shortName": "Sarah",
+      "name": "Sarah Elisabeth br Ginting, S.Farm., Apt.",
+      "parents": "Putri pertama dari\nBapak Ir. Josua Ginting & Ibu Rosmawati br Sembiring",
+      "instagram": "@sarah.ginting"
+    },
+    "groom": {
+      "shortName": "Andreas",
+      "name": "Andreas Pratama Karo-Karo, S.T.",
+      "parents": "Putra kedua dari\nBapak Drs. Petrus Karo-Karo & Ibu Herlina br Tarigan",
+      "instagram": "@andreas.karokaro"
+    },
+    "venue": "GBKP Runggun Kabanjahe Kota",
+    "city": "Kabanjahe",
+    "eventAt": "2027-06-12T09:00:00+07:00",
+    "gift": {
+      "heading": "Kirim Hadiah",
+      "intro": "Doa restu Anda adalah hadiah terindah. Bila ingin berbagi tanda kasih, kami sediakan di bawah ini.",
+      "toggleLabel": "Salin Nomor",
+      "accounts": [
+        {
+          "bank": "Bank BCA",
+          "holder": "Sarah Elisabeth br Ginting",
+          "number": "5210 0987 6543"
+        },
+        {
+          "bank": "Bank Mandiri",
+          "holder": "Andreas Pratama Karo-Karo",
+          "number": "1050 0123 4567 89"
+        }
+      ],
+      "addressLabel": "Kirim Kado",
+      "address": "Sarah & Andreas\nJl. Kapten Bangsi Sembiring No. 14, Kabanjahe, Kab. Karo, Sumatera Utara 22111\n0812-6000-1234",
+      "note": "Bujur melala. Terima kasih atas kasih dan perhatian Anda."
+    },
+    "family": {
+      "heading": "Turut Mengundang",
+      "members": [
+        {
+          "name": "Bapak Ir. Josua Ginting & Ibu Rosmawati br Sembiring",
+          "role": "Orang tua mempelai wanita"
+        },
+        {
+          "name": "Bapak Drs. Petrus Karo-Karo & Ibu Herlina br Tarigan",
+          "role": "Orang tua mempelai pria"
+        },
+        {
+          "name": "Keluarga Sembiring Mergana",
+          "role": "Kalimbubu"
+        },
+        {
+          "name": "Keluarga Purba Mergana",
+          "role": "Anak beru"
+        },
+        {
+          "name": "Keluarga Ginting Mergana & Karo-Karo Mergana",
+          "role": "Senina"
+        },
+        {
+          "name": "Keluarga besar Ginting & Karo-Karo",
+          "role": "Turut mengundang"
+        }
+      ]
+    }
+  },
+  "rumah-gadang": {
+    "bride": {
+      "shortName": "Nareswari",
+      "name": "Nareswari Putri Andalas, S.Psi.",
+      "parents": "Putri kedua dari\nBapak H. Amiruddin Sutan Sinaro & Ibu Hj. Elmawati",
+      "instagram": "@nareswariputri"
+    },
+    "groom": {
+      "shortName": "Chairil",
+      "name": "Chairil Ihsan Maulana, S.Kom.",
+      "parents": "Putra pertama dari\nBapak H. Yusrizal Datuak Bandaro & Ibu Hj. Nurbaiti",
+      "instagram": "@chairilihsan"
+    },
+    "venue": "Balai Adat Nagari",
+    "city": "Padang",
+    "eventAt": "2027-10-09T09:00:00+07:00",
+    "gift": {
+      "heading": "Tanda Kasih",
+      "intro": "Doa dan kehadiran Bapak/Ibu sudah lebih dari cukup bagi kami. Bila berkenan memberi tanda kasih, kami sediakan pilihan berikut.",
+      "toggleLabel": "Lihat Rekening",
+      "accounts": [
+        {
+          "bank": "BCA",
+          "holder": "Nareswari Putri Andalas",
+          "number": "1234567890"
+        },
+        {
+          "bank": "Mandiri",
+          "holder": "Chairil Ihsan Maulana",
+          "number": "0987654321"
+        }
+      ],
+      "addressLabel": "Kirim Hadiah",
+      "address": "Jl. Diponegoro No. 9, Padang Barat, Padang 25115",
+      "note": "Mohon konfirmasi setelah mengirim agar kami dapat mengucapkan terima kasih."
+    },
+    "family": {
+      "heading": "Keluarga Kami",
+      "members": [
+        {
+          "name": "Bapak H. Amiruddin Sutan Sinaro & Ibu Hj. Elmawati",
+          "role": "Orang Tua Mempelai Wanita"
+        },
+        {
+          "name": "Bapak H. Yusrizal Datuak Bandaro & Ibu Hj. Nurbaiti",
+          "role": "Orang Tua Mempelai Pria"
+        },
+        {
+          "name": "Rahmadani Putri & Fauzan Hakim",
+          "role": "Kakak Mempelai Wanita"
+        }
+      ]
+    }
+  }
+}
