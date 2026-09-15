@@ -1,176 +1,73 @@
 {
-  "jawa-klasik": {
-    "bride": {
-      "shortName": "Sekar",
-      "name": "Sekar Arum Kinasih, S.Psi.",
-      "parents": "Putri kedua dari\nBapak R. Harjono Puspowardoyo & Ibu R.A. Sri Hartini",
-      "instagram": "@sekararumk"
-    },
-    "groom": {
-      "shortName": "Danu",
-      "name": "Danu Prakosa Wibowo, S.E.",
-      "parents": "Putra pertama dari\nBapak H. Slamet Wibowo & Ibu Hj. Sumarni",
-      "instagram": "@danuprakosa"
-    },
-    "venue": "Pendopo Ndalem Suryaningratan",
-    "city": "Yogyakarta",
-    "eventAt": "2027-05-15T09:00:00+07:00",
-    "gift": {
-      "heading": "Tanda Kasih",
-      "intro": "Doa dan kehadiran Bapak/Ibu sudah lebih dari cukup bagi kami. Bila berkenan memberi tanda kasih, kami sediakan pilihan berikut.",
-      "toggleLabel": "Lihat Rekening",
-      "accounts": [
-        {
-          "bank": "BCA",
-          "holder": "Sekar Arum Kinasih",
-          "number": "1234567890"
-        },
-        {
-          "bank": "Mandiri",
-          "holder": "Danu Prakosa Wibowo",
-          "number": "0987654321"
-        }
-      ],
-      "addressLabel": "Kirim Hadiah",
-      "address": "Jl. Parangtritis No. 45, Mantrijeron, Yogyakarta 55143",
-      "note": "Mohon konfirmasi setelah mengirim agar kami dapat mengucapkan terima kasih."
-    },
-    "family": {
-      "heading": "Keluarga Kami",
-      "members": [
-        {
-          "name": "Bapak R. Harjono Puspowardoyo & Ibu R.A. Sri Hartini",
-          "role": "Orang Tua Mempelai Wanita"
-        },
-        {
-          "name": "Bapak H. Slamet Wibowo & Ibu Hj. Sumarni",
-          "role": "Orang Tua Mempelai Pria"
-        },
-        {
-          "name": "Sekar Ayu Paramita & Raden Bagus Widagdo",
-          "role": "Kakak Mempelai Wanita"
-        }
-      ]
+  "audit_metadata": {
+    "target": "The Graph Protocol",
+    "platform": "Immunefi",
+    "date": "2026-09-15",
+    "auditor": "Lexy Dehermes",
+    "scope": "Smart contracts (12 in scope)",
+    "total_findings": 2,
+    "severity_breakdown": {
+      "critical": 0,
+      "high": 2,
+      "medium": 0,
+      "low": 0
     }
   },
-  "batak-karo": {
-    "bride": {
-      "shortName": "Sarah",
-      "name": "Sarah Elisabeth br Ginting, S.Farm., Apt.",
-      "parents": "Putri pertama dari\nBapak Ir. Josua Ginting & Ibu Rosmawati br Sembiring",
-      "instagram": "@sarah.ginting"
+  "findings": [
+    {
+      "id": "GNS-001",
+      "title": "RewardsManager DoS via revertOnIneligible",
+      "severity": "HIGH",
+      "contract": "RewardsManager.sol",
+      "function": "_deniedRewards()",
+      "description": "When revertOnIneligible is true, a single ineligible indexer causes the entire takeRewards() transaction to revert, blocking rewards for ALL indexers.",
+      "impact": "Complete DoS of rewards collection. Single ineligible indexer blocks ALL takeRewards() calls. Accrued rewards locked for all indexers and delegators. Economic damage >$1M possible.",
+      "poc_type": "logic_demo",
+      "remediation": "Replace require with reclaim: if (isIneligible && revertOnIneligible) { _reclaimRewards(INDEXER_INELIGIBLE, rewards, ...); return true; }"
     },
-    "groom": {
-      "shortName": "Andreas",
-      "name": "Andreas Pratama Karo-Karo, S.T.",
-      "parents": "Putra kedua dari\nBapak Drs. Petrus Karo-Karo & Ibu Herlina br Tarigan",
-      "instagram": "@andreas.karokaro"
-    },
-    "venue": "GBKP Runggun Kabanjahe Kota",
-    "city": "Kabanjahe",
-    "eventAt": "2027-06-12T09:00:00+07:00",
-    "gift": {
-      "heading": "Kirim Hadiah",
-      "intro": "Doa restu Anda adalah hadiah terindah. Bila ingin berbagi tanda kasih, kami sediakan di bawah ini.",
-      "toggleLabel": "Salin Nomor",
-      "accounts": [
-        {
-          "bank": "Bank BCA",
-          "holder": "Sarah Elisabeth br Ginting",
-          "number": "5210 0987 6543"
-        },
-        {
-          "bank": "Bank Mandiri",
-          "holder": "Andreas Pratama Karo-Karo",
-          "number": "1050 0123 4567 89"
-        }
-      ],
-      "addressLabel": "Kirim Kado",
-      "address": "Sarah & Andreas\nJl. Kapten Bangsi Sembiring No. 14, Kabanjahe, Kab. Karo, Sumatera Utara 22111\n0812-6000-1234",
-      "note": "Bujur melala. Terima kasih atas kasih dan perhatian Anda."
-    },
-    "family": {
-      "heading": "Turut Mengundang",
-      "members": [
-        {
-          "name": "Bapak Ir. Josua Ginting & Ibu Rosmawati br Sembiring",
-          "role": "Orang tua mempelai wanita"
-        },
-        {
-          "name": "Bapak Drs. Petrus Karo-Karo & Ibu Herlina br Tarigan",
-          "role": "Orang tua mempelai pria"
-        },
-        {
-          "name": "Keluarga Sembiring Mergana",
-          "role": "Kalimbubu"
-        },
-        {
-          "name": "Keluarga Purba Mergana",
-          "role": "Anak beru"
-        },
-        {
-          "name": "Keluarga Ginting Mergana & Karo-Karo Mergana",
-          "role": "Senina"
-        },
-        {
-          "name": "Keluarga besar Ginting & Karo-Karo",
-          "role": "Turut mengundang"
-        }
-      ]
+    {
+      "id": "GNS-002",
+      "title": "L1Staking Fund Lock — Delegation Pool Tokens Stuck",
+      "severity": "HIGH",
+      "contract": "L1Staking.sol",
+      "function": "_transferStakeToL2()",
+      "description": "When transferring all stake to L2, the check only verifies tokensAllocated == 0, not tokensUsed(). Delegation pool tokens are permanently stuck.",
+      "impact": "Delegation pool tokens permanently stuck on L1. Delegators cannot withdraw their GRT. No recovery mechanism exists.",
+      "poc_type": "logic_demo",
+      "remediation": "Check tokensUsed() instead: require(indexerStake.tokensUsed() == 0, 'tokens still in use');"
     }
-  },
-  "rumah-gadang": {
-    "bride": {
-      "shortName": "Nareswari",
-      "name": "Nareswari Putri Andalas, S.Psi.",
-      "parents": "Putri kedua dari\nBapak H. Amiruddin Sutan Sinaro & Ibu Hj. Elmawati",
-      "instagram": "@nareswariputri"
-    },
-    "groom": {
-      "shortName": "Chairil",
-      "name": "Chairil Ihsan Maulana, S.Kom.",
-      "parents": "Putra pertama dari\nBapak H. Yusrizal Datuak Bandaro & Ibu Hj. Nurbaiti",
-      "instagram": "@chairilihsan"
-    },
-    "venue": "Balai Adat Nagari",
-    "city": "Padang",
-    "eventAt": "2027-10-09T09:00:00+07:00",
-    "gift": {
-      "heading": "Tanda Kasih",
-      "intro": "Doa dan kehadiran Bapak/Ibu sudah lebih dari cukup bagi kami. Bila berkenan memberi tanda kasih, kami sediakan pilihan berikut.",
-      "toggleLabel": "Lihat Rekening",
-      "accounts": [
-        {
-          "bank": "BCA",
-          "holder": "Nareswari Putri Andalas",
-          "number": "1234567890"
-        },
-        {
-          "bank": "Mandiri",
-          "holder": "Chairil Ihsan Maulana",
-          "number": "0987654321"
-        }
-      ],
-      "addressLabel": "Kirim Hadiah",
-      "address": "Jl. Diponegoro No. 9, Padang Barat, Padang 25115",
-      "note": "Mohon konfirmasi setelah mengirim agar kami dapat mengucapkan terima kasih."
-    },
-    "family": {
-      "heading": "Keluarga Kami",
-      "members": [
-        {
-          "name": "Bapak H. Amiruddin Sutan Sinaro & Ibu Hj. Elmawati",
-          "role": "Orang Tua Mempelai Wanita"
-        },
-        {
-          "name": "Bapak H. Yusrizal Datuak Bandaro & Ibu Hj. Nurbaiti",
-          "role": "Orang Tua Mempelai Pria"
-        },
-        {
-          "name": "Rahmadani Putri & Fauzan Hakim",
-          "role": "Kakak Mempelai Wanita"
-        }
-      ]
-    }
-  }
+  ],
+  "audit_history_checked": [
+    "OpenZeppelin 2020-08 Graph Protocol",
+    "OpenZeppelin 2021-04 Addresses Cache",
+    "OpenZeppelin 2021-04 Slashing Upgrade",
+    "OpenZeppelin 2021-04 Staking Bugfix",
+    "OpenZeppelin 2021-04 RewardsManager Upgrade",
+    "OpenZeppelin 2021-11 Curation Minimal Proxy",
+    "OpenZeppelin 2021-12 Rewards Signal Threshold",
+    "OpenZeppelin 2022-07 PR552/PR568/PR569/PR571",
+    "OpenZeppelin 2022-09 Drip Keeper Reward",
+    "OpenZeppelin 2023-05 Staking Vesting L2",
+    "OpenZeppelin 2023-06 Exponential Rebates",
+    "OpenZeppelin 2023-08 Dispute Manager Status",
+    "OpenZeppelin 2023-11 Remove Delegation Parameters Cooldown",
+    "OpenZeppelin 2023-11 Permissionless Payers",
+    "OpenZeppelin 2024-02 Subgraph Availability Manager",
+    "ConsenSys Diligence",
+    "Trust"
+  ],
+  "contracts_in_scope": [
+    "GraphTokenLockWallet (Token Distribution)",
+    "RewardsManager (Arbitrum)",
+    "L1Staking (Ethereum Mainnet)",
+    "GraphToken (GRT) - Ethereum Mainnet",
+    "L1GNS (Ethereum Mainnet)",
+    "RewardsManager (Ethereum Mainnet)",
+    "DisputeManager (Ethereum Mainnet)",
+    "Curation (Ethereum Mainnet)",
+    "BillingConnector - Ethereum Mainnet",
+    "Governor - Ethereum Mainnet",
+    "ArbitrumInbox - Ethereum Mainnet",
+    "BridgeEscrow - Ethereum Mainnet"
+  ]
 }
